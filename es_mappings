@@ -1,4 +1,4 @@
-curl -X PUT "localhost:9200/my-index-000001?pretty" -H 'Content-Type: application/json' -d'
+curl -X PUT "localhost:9200/employee_db?pretty" -H 'Content-Type: application/json' -d'
 {
   "settings": {
     "analysis": {
